@@ -23,4 +23,39 @@
 // Import partials:
 
 // Custom styles:
+.jumbotron {
+  background: url(../img/pirate-ship.jpg) no-repeat center;
+  background-size: cover;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  text-align: center;
+}
 
+a:hover {
+  text-decoration: underline;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+h2, h3, h4, h5 {
+  font-family: "Fira Sans", medium;
+}
+
+footer {
+  text-align: center;
+  padding: 4px;
+  align-items: center;
+  background-color: #99e599;
+  color: white;
+  font-family: "Oswald", bold;
+}
+
+#byline {
+  font-weight: bold;
+}
